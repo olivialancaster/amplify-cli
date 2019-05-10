@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - grunt-aws-lambda > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > request > hawk > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > request > hawk > sntp > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > node-gyp > request > hawk > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > request > hawk > boom > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-10T04:18:18.626Z'
+  'npm:minimatch:20160620':
+    - grunt-aws-lambda > glob > minimatch:
+        patched: '2019-05-10T04:18:18.626Z'
+    - grunt-aws-lambda > archiver > glob > minimatch:
+        patched: '2019-05-10T04:18:18.626Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-aws-lambda > npm > request > tunnel-agent:
+        patched: '2019-05-10T04:18:18.626Z'
