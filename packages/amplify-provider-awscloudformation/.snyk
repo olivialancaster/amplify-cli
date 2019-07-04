@@ -1,0 +1,846 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - eslint > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - archiver > zip-stream > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > amplify-graphql-docs-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > eslint > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - archiver > async > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > eslint > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > graphql-config > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - eslint > table > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > @babel/types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > eslint > table > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > graphql-config > graphql-import > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > graphql-config > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > eslint > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > eslint > table > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > eslint > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > amplify-graphql-types-generator > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > amplify-graphql-types-generator > @babel/types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > eslint > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > amplify-graphql-types-generator > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > graphql-config > graphql-import > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > amplify-graphql-types-generator > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > eslint > inquirer > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > eslint > table > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > async > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-resolve-dependencies > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - archiver > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-codegen > aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
+    - amplify-category-storage > amplify-category-auth > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T00:37:55.780Z'
