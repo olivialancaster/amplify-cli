@@ -10,13 +10,16 @@
     "inquirer": "^6.0.0",
     "opn": "^5.3.0",
     "ora": "^3.0.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "test": "jest --coverage",
-    "test-ci": "jest --ci -i"
+    "test-ci": "jest --ci -i",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Amazon Web Services",
   "license": "Apache-2.0",
@@ -31,5 +34,6 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ]
-  }
+  },
+  "snyk": true
 }
