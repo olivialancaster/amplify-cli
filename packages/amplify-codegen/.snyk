@@ -1,0 +1,266 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - amplify-graphql-docs-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - graphql-config > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - eslint > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > @babel/types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - amplify-graphql-types-generator > @babel/types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - eslint > table > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - amplify-graphql-types-generator > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > graphql-config > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - graphql-config > graphql-import > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - amplify-graphql-types-generator > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > graphql-config > graphql-import > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - amplify-graphql-types-generator > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > async > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - inquirer > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
+    - aws-appsync-codegen > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T05:26:29.915Z'
