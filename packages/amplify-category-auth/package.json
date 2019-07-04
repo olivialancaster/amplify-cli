@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "test": "jest",
-    "test-ci": "jest --ci -i"
+    "test-ci": "jest --ci -i",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -18,7 +20,8 @@
     "inquirer": "^6.0.0",
     "jest": "^23.5.0",
     "lodash": "^4.17.10",
-    "uuid": "^2.0.3"
+    "uuid": "^2.0.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
@@ -35,5 +38,6 @@
       "json",
       "node"
     ]
-  }
+  },
+  "snyk": true
 }
