@@ -7,7 +7,9 @@
   "license": "Apache-2.0",
   "scripts": {
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint-fix": "eslint . --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "amplify-category-auth": "^0.1.33",
@@ -18,10 +20,12 @@
     "inquirer": "^6.0.0",
     "moment": "^2.22.2",
     "opn": "^5.3.0",
-    "uuid": "^2.0.3"
+    "uuid": "^2.0.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0"
-  }
+  },
+  "snyk": true
 }
