@@ -1,0 +1,102 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - amplify-codegen > aws-appsync-codegen > npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-category-function > grunt-aws-lambda > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-category-function > grunt-aws-lambda > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
+    - amplify-provider-awscloudformation > amplify-codegen > aws-appsync-codegen > npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T02:44:05.297Z'
