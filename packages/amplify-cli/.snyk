@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > sntp > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > request > hawk > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > request > hawk > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > request > hawk > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > request > hawk > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > request > hawk > sntp > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > request > hawk > sntp > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-18T02:52:33.670Z'
+  'npm:tunnel-agent:20170305':
+    - amplify-category-function > grunt-aws-lambda > npm > request > tunnel-agent:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-api > amplify-category-function > grunt-aws-lambda > npm > request > tunnel-agent:
+        patched: '2020-02-18T02:52:33.670Z'
+    - amplify-category-interactions > amplify-category-function > grunt-aws-lambda > npm > request > tunnel-agent:
+        patched: '2020-02-18T02:52:33.670Z'
