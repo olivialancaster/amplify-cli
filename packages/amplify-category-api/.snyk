@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > boom > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > sntp > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-01-09T01:57:43.178Z'
+  'npm:minimatch:20160620':
+    - amplify-category-function > grunt-aws-lambda > glob > minimatch:
+        patched: '2021-01-09T01:57:43.178Z'
+    - amplify-category-function > grunt-aws-lambda > archiver > glob > minimatch:
+        patched: '2021-01-09T01:57:43.178Z'
+  'npm:tunnel-agent:20170305':
+    - amplify-category-function > grunt-aws-lambda > npm > request > tunnel-agent:
+        patched: '2021-01-09T01:57:43.178Z'
