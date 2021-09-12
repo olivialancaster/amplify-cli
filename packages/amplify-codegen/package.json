@@ -24,7 +24,7 @@
     "graphql": "^14.0.2",
     "graphql-config": "^2.1.0",
     "inquirer": "^6.0.0",
-    "ora": "^3.0.0",
+    "ora": "^6.0.0",
     "underscore": "^1.9.1"
   },
   "devDependencies": {
