@@ -4,10 +4,10 @@
   "description": "amplify-cli analytics plugin",
   "main": "index.js",
   "dependencies": {
-    "amplify-category-auth": "^0.1.33",
-    "eslint": "^4.19.1",
+    "amplify-category-auth": "^2.13.1",
+    "eslint": "^7.0.0",
     "fs-extra": "^7.0.0",
-    "inquirer": "^6.0.0",
+    "inquirer": "^7.0.5",
     "opn": "^5.3.0",
     "uuid": "^3.3.2"
   },
