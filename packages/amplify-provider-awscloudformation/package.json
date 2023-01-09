@@ -14,7 +14,7 @@
     "chalk": "^2.4.1",
     "columnify": "^1.5.4",
     "eslint": "^4.19.1",
-    "extract-zip": "^1.6.7",
+    "extract-zip": "^2.0.0",
     "fs-extra": "^4.0.2",
     "graphql-appsync-transformer": "^1.0.33",
     "graphql-auth-transformer": "^1.0.33",
