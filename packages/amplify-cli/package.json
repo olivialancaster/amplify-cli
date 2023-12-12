@@ -28,7 +28,7 @@
     "amplify-category-interactions": "^0.1.34",
     "amplify-category-notifications": "^0.1.34",
     "amplify-category-storage": "^0.1.34",
-    "amplify-codegen": "^0.1.36",
+    "amplify-codegen": "^4.7.3",
     "amplify-frontend-android": "^0.1.33",
     "amplify-frontend-ios": "^0.1.33",
     "amplify-frontend-javascript": "^0.1.33",
