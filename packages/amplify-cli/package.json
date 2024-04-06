@@ -35,7 +35,7 @@
     "amplify-provider-awscloudformation": "^0.1.36",
     "cfonts": "^2.1.2",
     "chalk": "^2.0.1",
-    "eslint": "^4.19.1",
+    "eslint": "^9.0.0",
     "folder-hash": "^2.0.0",
     "fs-extra": "^6.0.1",
     "gluegun": "next",
