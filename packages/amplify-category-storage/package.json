@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "amplify-category-auth": "^0.1.33",
-    "eslint": "^4.19.1",
+    "eslint": "^9.15.0",
     "fs-extra": "^7.0.0",
     "inquirer": "^6.0.0",
     "uuid": "^2.0.3"
