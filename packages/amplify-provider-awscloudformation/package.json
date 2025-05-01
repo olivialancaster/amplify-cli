@@ -6,7 +6,7 @@
   "author": "Amazon Web Services",
   "license": "Apache-2.0",
   "dependencies": {
-    "amplify-category-storage": "^0.1.34",
+    "amplify-category-storage": "^1.13.0",
     "amplify-codegen": "^0.1.36",
     "archiver": "^2.1.1",
     "aws-sdk": "^2.250.1",
