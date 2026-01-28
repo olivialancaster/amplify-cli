@@ -25,7 +25,7 @@
     "typescript": "^2.8.3"
   },
   "dependencies": {
-    "cloudform": "^2.2.1",
+    "cloudform": "^4.2.0",
     "graphql": "^0.13.2"
   },
   "jest": {
