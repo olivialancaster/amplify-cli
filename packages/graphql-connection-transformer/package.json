@@ -17,7 +17,7 @@
   "author": "Amazon Web Services",
   "license": "Apache-2.0",
   "dependencies": {
-    "cloudform": "^2.2.1",
+    "cloudform": "^4.2.0",
     "graphql": "^0.13.2",
     "graphql-dynamodb-transformer": "^1.0.33",
     "graphql-mapping-template": "^1.0.33",
